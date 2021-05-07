@@ -1,0 +1,20 @@
+<html>
+	<%-include('./head')%>
+    <body>
+		<%-include('./header')%>
+		<div class="jumbotron">
+			<h1 style="padding:20px 0px 0px 20px">Apartment Rental site.</h1>
+		</div>
+		<% for(data in content){ %>
+		<a href="/apartment?id=<%=content[data]._id%>"><div class="panel panel-default">
+			<div class="panel-heading"><%-content[data].title%></div>
+			<div class="panel-body">
+				大廈名:<%-content[data].aname%></br>
+				地址:<%-content[data].locate%></br>
+				租:<%-content[data].rent%></br>
+				附注:<%-content[data].comment%></br>
+			</div>
+		</div></a>
+		<%}%>
+    </body>
+</html>

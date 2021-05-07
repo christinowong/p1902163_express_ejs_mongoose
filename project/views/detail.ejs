@@ -1,0 +1,22 @@
+<html>
+	<%-include('./head')%>
+	<body style="padding-top:60px">
+		<%-include('./header')%>
+		
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<%-content.title%>
+			</div>
+			<div class="panel-body">
+				大廈名:<%-content.aname%></br>
+				地址:<%-content.locate%></br>
+				租:<%-content.rent%></br>
+				附注:<%-content.comment%></br>
+			</div>
+			<div class="panel-body">
+				<a href="/edit?id=<%=content._id%>">修改</a>
+				<a href="/delete?id=<%=content._id%>">刪除</a>
+			</div>
+		</div>
+	</body>
+</html>

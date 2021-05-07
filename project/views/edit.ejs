@@ -1,0 +1,31 @@
+<html>
+	<%-include('./head')%>
+	<body style="padding-top:60px">
+		<%-include('./header')%>
+		<h2><%-content.title%></h2>
+		<form method="post" action="/editform">
+		<div class="form-group">
+			<label>Title:</label>
+			<input name="title" value="" type="text">
+		</div>
+		<div class="form-group">
+			<label>Apartment name:</label>
+			<input name="aname" value="" type="text">
+		</div>
+		<div class="form-group">
+			<label>Locate:</label>
+			<input name="locate" value="" type="text">
+		</div>
+		<div class="form-group">
+			<label>Rent:</label>
+			<input name="rent" value="" type="text">
+		</div>
+		<div class="form-group">
+			<label>Comment:</label>
+			<textarea name="comment"></textarea>
+		</div>
+			<input name="_id" value="<%-content._id%>" type="hidden">
+			<button type="submit">儲存</button>
+		<form method="post" action="/editform">
+	</body>
+</html>
