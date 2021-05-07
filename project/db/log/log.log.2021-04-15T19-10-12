@@ -1,0 +1,4 @@
+2021-04-16T01:55:06.749+0800 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2021-04-16T01:55:06.755+0800 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+2021-04-16T01:55:06.756+0800 I  CONTROL  [main] Trying to install Windows service 'MongoDB'
+2021-04-16T01:55:06.756+0800 I  CONTROL  [main] There is already a service named 'MongoDB', sleeping and retrying

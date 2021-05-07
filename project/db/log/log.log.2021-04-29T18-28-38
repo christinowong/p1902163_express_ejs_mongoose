@@ -1,0 +1,93 @@
+2021-04-16T18:51:54.209+0800 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2021-04-16T18:51:54.739+0800 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+2021-04-16T18:51:54.740+0800 I  CONTROL  [main] Trying to start Windows service 'MongoDB'
+2021-04-16T18:51:54.769+0800 I  CONTROL  [initandlisten] MongoDB starting : pid=12152 port=27017 dbpath=C:\Users\webpc\Documents\HBuilderProjects\project\db\db 64-bit host=web
+2021-04-16T18:51:54.770+0800 I  CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2021-04-16T18:51:54.770+0800 I  CONTROL  [initandlisten] db version v4.2.13
+2021-04-16T18:51:54.770+0800 I  CONTROL  [initandlisten] git version: 82dd40f60c55dae12426c08fd7150d79a0e28e23
+2021-04-16T18:51:54.770+0800 I  CONTROL  [initandlisten] allocator: tcmalloc
+2021-04-16T18:51:54.771+0800 I  CONTROL  [initandlisten] modules: none
+2021-04-16T18:51:54.771+0800 I  CONTROL  [initandlisten] build environment:
+2021-04-16T18:51:54.771+0800 I  CONTROL  [initandlisten]     distmod: 2012plus
+2021-04-16T18:51:54.771+0800 I  CONTROL  [initandlisten]     distarch: x86_64
+2021-04-16T18:51:54.771+0800 I  CONTROL  [initandlisten]     target_arch: x86_64
+2021-04-16T18:51:54.771+0800 I  CONTROL  [initandlisten] options: { service: true, storage: { dbPath: "C:\Users\webpc\Documents\HBuilderProjects\project\db\db" }, systemLog: { destination: "file", path: "C:\Users\webpc\Documents\HBuilderProjects\project\db\log\log.log" } }
+2021-04-16T18:51:54.829+0800 I  STORAGE  [initandlisten] Detected data files in C:\Users\webpc\Documents\HBuilderProjects\project\db\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2021-04-16T18:51:54.839+0800 I  STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1477M,cache_overflow=(file_max=0M),session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000,close_scan_interval=10,close_handle_minimum=250),statistics_log=(wait=0),verbose=[recovery_progress,checkpoint_progress],
+2021-04-16T18:51:55.104+0800 I  STORAGE  [initandlisten] WiredTiger message [1618570315:104464][12152:140732437827712], txn-recover: Recovering log 2 through 3
+2021-04-16T18:51:55.298+0800 I  STORAGE  [initandlisten] WiredTiger message [1618570315:297596][12152:140732437827712], txn-recover: Recovering log 3 through 3
+2021-04-16T18:51:55.416+0800 I  STORAGE  [initandlisten] WiredTiger message [1618570315:415699][12152:140732437827712], txn-recover: Main recovery loop: starting at 2/187392 to 3/256
+2021-04-16T18:51:55.581+0800 I  STORAGE  [initandlisten] WiredTiger message [1618570315:580798][12152:140732437827712], txn-recover: Recovering log 2 through 3
+2021-04-16T18:51:55.760+0800 I  STORAGE  [initandlisten] WiredTiger message [1618570315:759952][12152:140732437827712], txn-recover: Recovering log 3 through 3
+2021-04-16T18:51:55.998+0800 I  STORAGE  [initandlisten] WiredTiger message [1618570315:998123][12152:140732437827712], txn-recover: Set global recovery timestamp: (0, 0)
+2021-04-16T18:51:56.325+0800 I  RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2021-04-16T18:51:56.358+0800 I  STORAGE  [initandlisten] No table logging settings modifications are required for existing WiredTiger tables. Logging enabled? 1
+2021-04-16T18:51:56.459+0800 I  STORAGE  [initandlisten] Timestamp monitor starting
+2021-04-16T18:51:56.529+0800 I  CONTROL  [initandlisten] 
+2021-04-16T18:51:56.529+0800 I  CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2021-04-16T18:51:56.529+0800 I  CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2021-04-16T18:51:56.530+0800 I  CONTROL  [initandlisten] 
+2021-04-16T18:51:56.530+0800 I  CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2021-04-16T18:51:56.530+0800 I  CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2021-04-16T18:51:56.531+0800 I  CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2021-04-16T18:51:56.531+0800 I  CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2021-04-16T18:51:56.531+0800 I  CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2021-04-16T18:51:56.531+0800 I  CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2021-04-16T18:51:56.561+0800 I  CONTROL  [initandlisten] 
+2021-04-16T18:51:56.630+0800 I  SHARDING [initandlisten] Marking collection local.system.replset as collection version: <unsharded>
+2021-04-16T18:51:56.654+0800 I  STORAGE  [initandlisten] Flow Control is enabled on this deployment.
+2021-04-16T18:51:56.660+0800 I  SHARDING [initandlisten] Marking collection admin.system.roles as collection version: <unsharded>
+2021-04-16T18:51:56.661+0800 I  SHARDING [initandlisten] Marking collection admin.system.version as collection version: <unsharded>
+2021-04-16T18:51:56.685+0800 I  SHARDING [initandlisten] Marking collection local.startup_log as collection version: <unsharded>
+2021-04-16T18:51:57.071+0800 I  FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Users/webpc/Documents/HBuilderProjects/project/db/db/diagnostic.data'
+2021-04-16T18:51:57.091+0800 I  SHARDING [LogicalSessionCacheRefresh] Marking collection config.system.sessions as collection version: <unsharded>
+2021-04-16T18:51:57.092+0800 I  NETWORK  [listener] Listening on 127.0.0.1
+2021-04-16T18:51:57.092+0800 I  NETWORK  [listener] waiting for connections on port 27017
+2021-04-16T18:51:57.092+0800 I  SHARDING [LogicalSessionCacheReap] Marking collection config.transactions as collection version: <unsharded>
+2021-04-16T18:51:57.092+0800 I  STORAGE  [initandlisten] Service running
+2021-04-16T18:51:58.019+0800 I  SHARDING [ftdc] Marking collection local.oplog.rs as collection version: <unsharded>
+2021-04-16T18:52:05.627+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:10200 #1 (1 connection now open)
+2021-04-16T18:52:05.642+0800 I  NETWORK  [conn1] received client metadata from 127.0.0.1:10200 conn1: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T18:52:05.789+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:10201 #2 (2 connections now open)
+2021-04-16T18:52:05.791+0800 I  NETWORK  [conn2] received client metadata from 127.0.0.1:10201 conn2: { driver: { name: "nodejs", version: "4.0.0-beta.1" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "Node.js v12.4.0, LE (unified)|Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T18:52:30.729+0800 I  CONTROL  [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2021-04-16T18:52:30.729+0800 I  REPL     [serviceShutdown] Stepping down the ReplicationCoordinator for shutdown, waitTime: 10000ms
+2021-04-16T18:52:30.729+0800 I  SHARDING [serviceShutdown] Shutting down the WaitForMajorityService
+2021-04-16T18:52:30.729+0800 I  CONTROL  [serviceShutdown] Shutting down the LogicalSessionCache
+2021-04-16T18:52:30.729+0800 I  NETWORK  [serviceShutdown] shutdown: going to close listening sockets...
+2021-04-16T18:52:30.732+0800 I  NETWORK  [serviceShutdown] Shutting down the global connection pool
+2021-04-16T18:52:30.732+0800 I  STORAGE  [serviceShutdown] Shutting down the FlowControlTicketholder
+2021-04-16T18:52:30.732+0800 I  -        [serviceShutdown] Stopping further Flow Control ticket acquisitions.
+2021-04-16T18:52:30.732+0800 I  STORAGE  [serviceShutdown] Shutting down the PeriodicThreadToAbortExpiredTransactions
+2021-04-16T18:52:30.732+0800 I  STORAGE  [serviceShutdown] Shutting down the PeriodicThreadToDecreaseSnapshotHistoryIfNotNeeded
+2021-04-16T18:52:30.733+0800 I  REPL     [serviceShutdown] Shutting down the ReplicationCoordinator
+2021-04-16T18:52:30.733+0800 I  SHARDING [serviceShutdown] Shutting down the ShardingInitializationMongoD
+2021-04-16T18:52:30.733+0800 I  REPL     [serviceShutdown] Enqueuing the ReplicationStateTransitionLock for shutdown
+2021-04-16T18:52:30.733+0800 I  -        [serviceShutdown] Killing all operations for shutdown
+2021-04-16T18:52:30.733+0800 I  COMMAND  [serviceShutdown] Shutting down all open transactions
+2021-04-16T18:52:30.733+0800 I  REPL     [serviceShutdown] Acquiring the ReplicationStateTransitionLock for shutdown
+2021-04-16T18:52:30.733+0800 I  INDEX    [serviceShutdown] Shutting down the IndexBuildsCoordinator
+2021-04-16T18:52:30.733+0800 I  NETWORK  [serviceShutdown] Shutting down the ReplicaSetMonitor
+2021-04-16T18:52:30.733+0800 I  CONTROL  [serviceShutdown] Shutting down free monitoring
+2021-04-16T18:52:30.733+0800 I  CONTROL  [serviceShutdown] Shutting down free monitoring
+2021-04-16T18:52:30.733+0800 I  FTDC     [serviceShutdown] Shutting down full-time data capture
+2021-04-16T18:52:30.733+0800 I  FTDC     [serviceShutdown] Shutting down full-time diagnostic data capture
+2021-04-16T18:52:30.744+0800 I  STORAGE  [serviceShutdown] Shutting down the HealthLog
+2021-04-16T18:52:30.744+0800 I  STORAGE  [serviceShutdown] Shutting down the storage engine
+2021-04-16T18:52:30.745+0800 I  STORAGE  [serviceShutdown] Deregistering all the collections
+2021-04-16T18:52:30.745+0800 I  STORAGE  [serviceShutdown] Timestamp monitor shutting down
+2021-04-16T18:52:30.745+0800 I  STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
+2021-04-16T18:52:30.781+0800 I  STORAGE  [serviceShutdown] Shutting down session sweeper thread
+2021-04-16T18:52:30.782+0800 I  STORAGE  [serviceShutdown] Finished shutting down session sweeper thread
+2021-04-16T18:52:30.782+0800 I  STORAGE  [serviceShutdown] Shutting down journal flusher thread
+2021-04-16T18:52:30.882+0800 I  STORAGE  [serviceShutdown] Finished shutting down journal flusher thread
+2021-04-16T18:52:30.882+0800 I  STORAGE  [serviceShutdown] Shutting down checkpoint thread
+2021-04-16T18:52:30.882+0800 I  STORAGE  [serviceShutdown] Finished shutting down checkpoint thread
+2021-04-16T18:52:31.540+0800 I  STORAGE  [serviceShutdown] shutdown: removing fs lock...
+2021-04-16T18:52:31.542+0800 I  -        [serviceShutdown] Dropping the scope cache for shutdown
+2021-04-16T18:52:31.543+0800 I  CONTROL  [serviceShutdown] now exiting
+2021-04-16T18:53:57.185+0800 I  CONTROL  [main] ***** SERVER RESTARTED *****
+2021-04-16T18:53:57.186+0800 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2021-04-16T18:53:57.722+0800 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+2021-04-16T18:53:57.723+0800 I  CONTROL  [main] Trying to install Windows service 'MongoDB'
+2021-04-16T18:53:57.723+0800 I  CONTROL  [main] Error connecting to the Service Control Manager: 存取被拒。 (5)

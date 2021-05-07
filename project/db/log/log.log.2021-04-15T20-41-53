@@ -1,0 +1,276 @@
+2021-04-16T03:12:40.898+0800 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2021-04-16T03:12:41.527+0800 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+2021-04-16T03:12:41.527+0800 I  CONTROL  [main] Trying to start Windows service 'MongoDB'
+2021-04-16T03:12:41.528+0800 I  CONTROL  [initandlisten] MongoDB starting : pid=8444 port=27017 dbpath=C:\Users\webpc\Documents\HBuilderProjects\project\db\db 64-bit host=web
+2021-04-16T03:12:41.528+0800 I  CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2021-04-16T03:12:41.528+0800 I  CONTROL  [initandlisten] db version v4.2.13
+2021-04-16T03:12:41.529+0800 I  CONTROL  [initandlisten] git version: 82dd40f60c55dae12426c08fd7150d79a0e28e23
+2021-04-16T03:12:41.529+0800 I  CONTROL  [initandlisten] allocator: tcmalloc
+2021-04-16T03:12:41.529+0800 I  CONTROL  [initandlisten] modules: none
+2021-04-16T03:12:41.529+0800 I  CONTROL  [initandlisten] build environment:
+2021-04-16T03:12:41.529+0800 I  CONTROL  [initandlisten]     distmod: 2012plus
+2021-04-16T03:12:41.529+0800 I  CONTROL  [initandlisten]     distarch: x86_64
+2021-04-16T03:12:41.529+0800 I  CONTROL  [initandlisten]     target_arch: x86_64
+2021-04-16T03:12:41.529+0800 I  CONTROL  [initandlisten] options: { service: true, storage: { dbPath: "C:\Users\webpc\Documents\HBuilderProjects\project\db\db" }, systemLog: { destination: "file", path: "C:\Users\webpc\Documents\HBuilderProjects\project\db\log\log.log" } }
+2021-04-16T03:12:41.531+0800 I  STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1477M,cache_overflow=(file_max=0M),session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000,close_scan_interval=10,close_handle_minimum=250),statistics_log=(wait=0),verbose=[recovery_progress,checkpoint_progress],
+2021-04-16T03:12:42.036+0800 I  STORAGE  [initandlisten] WiredTiger message [1618513962:36499][8444:140732437827712], txn-recover: Set global recovery timestamp: (0, 0)
+2021-04-16T03:12:42.352+0800 I  RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2021-04-16T03:12:42.602+0800 I  STORAGE  [initandlisten] No table logging settings modifications are required for existing WiredTiger tables. Logging enabled? 1
+2021-04-16T03:12:42.602+0800 I  STORAGE  [initandlisten] Timestamp monitor starting
+2021-04-16T03:12:42.719+0800 I  CONTROL  [initandlisten] 
+2021-04-16T03:12:42.719+0800 I  CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2021-04-16T03:12:42.719+0800 I  CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2021-04-16T03:12:42.720+0800 I  CONTROL  [initandlisten] 
+2021-04-16T03:12:42.720+0800 I  CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2021-04-16T03:12:42.720+0800 I  CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2021-04-16T03:12:42.721+0800 I  CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2021-04-16T03:12:42.721+0800 I  CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2021-04-16T03:12:42.721+0800 I  CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2021-04-16T03:12:42.721+0800 I  CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2021-04-16T03:12:42.721+0800 I  CONTROL  [initandlisten] 
+2021-04-16T03:12:42.723+0800 I  STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: 1377cbd5-b080-4ce3-85e2-9173db7fa931 and options: { uuid: UUID("1377cbd5-b080-4ce3-85e2-9173db7fa931") }
+2021-04-16T03:12:43.049+0800 I  INDEX    [initandlisten] index build: done building index _id_ on ns admin.system.version
+2021-04-16T03:12:43.050+0800 I  SHARDING [initandlisten] Marking collection admin.system.version as collection version: <unsharded>
+2021-04-16T03:12:43.050+0800 I  COMMAND  [initandlisten] setting featureCompatibilityVersion to 4.2
+2021-04-16T03:12:43.052+0800 I  SHARDING [initandlisten] Marking collection local.system.replset as collection version: <unsharded>
+2021-04-16T03:12:43.053+0800 I  STORAGE  [initandlisten] Flow Control is enabled on this deployment.
+2021-04-16T03:12:43.053+0800 I  SHARDING [initandlisten] Marking collection admin.system.roles as collection version: <unsharded>
+2021-04-16T03:12:43.054+0800 I  STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: 8062e105-5ed9-4d45-a6c6-a9bf7ac20c11 and options: { capped: true, size: 10485760 }
+2021-04-16T03:12:43.348+0800 I  INDEX    [initandlisten] index build: done building index _id_ on ns local.startup_log
+2021-04-16T03:12:43.348+0800 I  SHARDING [initandlisten] Marking collection local.startup_log as collection version: <unsharded>
+2021-04-16T03:12:43.494+0800 I  FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Users/webpc/Documents/HBuilderProjects/project/db/db/diagnostic.data'
+2021-04-16T03:12:43.495+0800 I  SHARDING [LogicalSessionCacheRefresh] Marking collection config.system.sessions as collection version: <unsharded>
+2021-04-16T03:12:43.496+0800 I  NETWORK  [listener] Listening on 127.0.0.1
+2021-04-16T03:12:43.496+0800 I  NETWORK  [listener] waiting for connections on port 27017
+2021-04-16T03:12:43.496+0800 I  CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2021-04-16T03:12:43.496+0800 I  STORAGE  [initandlisten] Service running
+2021-04-16T03:12:43.496+0800 I  STORAGE  [LogicalSessionCacheRefresh] createCollection: config.system.sessions with provided UUID: 5e78b78d-331b-4022-bb6d-53562acfb128 and options: { uuid: UUID("5e78b78d-331b-4022-bb6d-53562acfb128") }
+2021-04-16T03:12:43.649+0800 I  INDEX    [LogicalSessionCacheRefresh] index build: done building index _id_ on ns config.system.sessions
+2021-04-16T03:12:43.849+0800 I  INDEX    [LogicalSessionCacheRefresh] index build: starting on config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 } using method: Hybrid
+2021-04-16T03:12:43.849+0800 I  INDEX    [LogicalSessionCacheRefresh] build may temporarily use up to 200 megabytes of RAM
+2021-04-16T03:12:43.849+0800 I  INDEX    [LogicalSessionCacheRefresh] index build: collection scan done. scanned 0 total records in 0 seconds
+2021-04-16T03:12:43.853+0800 I  INDEX    [LogicalSessionCacheRefresh] index build: inserted 0 keys from external sorter into index in 0 seconds
+2021-04-16T03:12:43.905+0800 I  INDEX    [LogicalSessionCacheRefresh] index build: done building index lsidTTLIndex on ns config.system.sessions
+2021-04-16T03:12:43.949+0800 I  COMMAND  [LogicalSessionCacheRefresh] command config.system.sessions command: createIndexes { createIndexes: "system.sessions", indexes: [ { key: { lastUse: 1 }, name: "lsidTTLIndex", expireAfterSeconds: 1800 } ], $db: "config" } numYields:0 reslen:114 locks:{ ParallelBatchWriterMode: { acquireCount: { r: 2 } }, ReplicationStateTransition: { acquireCount: { w: 3 } }, Global: { acquireCount: { r: 1, w: 2 } }, Database: { acquireCount: { r: 1, w: 2, W: 1 } }, Collection: { acquireCount: { r: 4, w: 1, R: 1, W: 2 } }, Mutex: { acquireCount: { r: 3 } } } flowControl:{ acquireCount: 1, timeAcquiringMicros: 1 } storage:{} protocol:op_msg 453ms
+2021-04-16T03:12:44.004+0800 I  SHARDING [ftdc] Marking collection local.oplog.rs as collection version: <unsharded>
+2021-04-16T03:17:43.497+0800 I  SHARDING [LogicalSessionCacheReap] Marking collection config.transactions as collection version: <unsharded>
+2021-04-16T03:18:44.276+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7214 #1 (1 connection now open)
+2021-04-16T03:18:44.314+0800 I  NETWORK  [conn1] received client metadata from 127.0.0.1:7214 conn1: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:18:45.781+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7216 #2 (2 connections now open)
+2021-04-16T03:18:45.786+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7217 #3 (3 connections now open)
+2021-04-16T03:18:45.789+0800 I  NETWORK  [conn2] received client metadata from 127.0.0.1:7216 conn2: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:18:45.793+0800 I  NETWORK  [conn3] received client metadata from 127.0.0.1:7217 conn3: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:18:45.794+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7218 #4 (4 connections now open)
+2021-04-16T03:18:45.795+0800 I  NETWORK  [conn4] received client metadata from 127.0.0.1:7218 conn4: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:18:45.796+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7219 #5 (5 connections now open)
+2021-04-16T03:18:45.797+0800 I  NETWORK  [conn5] received client metadata from 127.0.0.1:7219 conn5: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:18:45.886+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7220 #6 (6 connections now open)
+2021-04-16T03:18:45.892+0800 I  NETWORK  [conn6] received client metadata from 127.0.0.1:7220 conn6: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:18:46.027+0800 I  COMMAND  [conn5] command admin.$cmd appName: "MongoDB Compass" command: listDatabases { listDatabases: 1, lsid: { id: UUID("cc0be7c4-13cc-441b-8f7c-4df2c37b89f6") }, $db: "admin" } numYields:0 reslen:230 locks:{ ParallelBatchWriterMode: { acquireCount: { r: 4 } }, ReplicationStateTransition: { acquireCount: { w: 4 } }, Global: { acquireCount: { r: 4 } }, Database: { acquireCount: { r: 3 } }, Collection: { acquireCount: { r: 3 } }, Mutex: { acquireCount: { r: 3 } } } storage:{} protocol:op_msg 141ms
+2021-04-16T03:18:48.203+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7222 #7 (7 connections now open)
+2021-04-16T03:18:48.210+0800 I  NETWORK  [conn7] received client metadata from 127.0.0.1:7222 conn7: { driver: { name: "nodejs", version: "4.0.0-beta.1" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "Node.js v12.4.0, LE (unified)|Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:18:48.680+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7223 #8 (8 connections now open)
+2021-04-16T03:18:48.682+0800 I  NETWORK  [conn8] received client metadata from 127.0.0.1:7223 conn8: { driver: { name: "nodejs", version: "4.0.0-beta.1" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "Node.js v12.4.0, LE (unified)|Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:19:03.357+0800 I  SHARDING [conn4] Marking collection config.collections as collection version: <unsharded>
+2021-04-16T03:19:03.365+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7224 #9 (9 connections now open)
+2021-04-16T03:19:03.365+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7225 #10 (10 connections now open)
+2021-04-16T03:19:03.365+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7226 #11 (11 connections now open)
+2021-04-16T03:19:03.366+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7227 #12 (12 connections now open)
+2021-04-16T03:19:03.366+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7228 #13 (13 connections now open)
+2021-04-16T03:19:03.383+0800 I  NETWORK  [conn9] received client metadata from 127.0.0.1:7224 conn9: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:19:03.383+0800 I  NETWORK  [conn10] received client metadata from 127.0.0.1:7225 conn10: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:19:03.384+0800 I  NETWORK  [conn11] received client metadata from 127.0.0.1:7226 conn11: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:19:03.385+0800 I  NETWORK  [conn12] received client metadata from 127.0.0.1:7227 conn12: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:19:03.387+0800 I  NETWORK  [conn13] received client metadata from 127.0.0.1:7228 conn13: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:19:03.480+0800 I  COMMAND  [conn6] command local.startup_log appName: "MongoDB Compass" command: count { count: "startup_log", maxTimeMS: 60000, lsid: { id: UUID("a7d640f3-4d43-4482-84e9-16b6dc0fcf1f") }, $db: "local" } planSummary: RECORD_STORE_FAST_COUNT keysExamined:0 docsExamined:0 numYields:0 reslen:45 locks:{ ReplicationStateTransition: { acquireCount: { w: 1 } }, Global: { acquireCount: { r: 1 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { r: 1 } }, Mutex: { acquireCount: { r: 1 } } } protocol:op_msg 121ms
+2021-04-16T03:19:03.755+0800 I  COMMAND  [conn4] command local.startup_log appName: "MongoDB Compass" command: aggregate { aggregate: "startup_log", pipeline: [ { $indexStats: {} }, { $project: { name: 1, usageHost: "$host", usageCount: "$accesses.ops", usageSince: "$accesses.since" } } ], cursor: {}, lsid: { id: UUID("cc0be7c4-13cc-441b-8f7c-4df2c37b89f6") }, $db: "local" } keysExamined:0 docsExamined:0 cursorExhausted:1 numYields:0 nreturned:1 reslen:194 locks:{ ReplicationStateTransition: { acquireCount: { w: 2 } }, Global: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 2 } }, Collection: { acquireCount: { r: 2 } }, Mutex: { acquireCount: { r: 2 } } } protocol:op_msg 329ms
+2021-04-16T03:19:03.755+0800 I  COMMAND  [conn12] command local.startup_log appName: "MongoDB Compass" command: aggregate { aggregate: "startup_log", pipeline: [ { $indexStats: {} }, { $project: { name: 1, usageHost: "$host", usageCount: "$accesses.ops", usageSince: "$accesses.since" } } ], cursor: {}, lsid: { id: UUID("12efff5b-836b-4021-88b4-6ec0dd54252a") }, $db: "local" } keysExamined:0 docsExamined:0 cursorExhausted:1 numYields:0 nreturned:1 reslen:194 locks:{ ReplicationStateTransition: { acquireCount: { w: 2 } }, Global: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 2 } }, Collection: { acquireCount: { r: 2 } }, Mutex: { acquireCount: { r: 2 } } } protocol:op_msg 220ms
+2021-04-16T03:19:03.762+0800 I  COMMAND  [conn3] command local.startup_log appName: "MongoDB Compass" command: aggregate { aggregate: "startup_log", pipeline: [ { $match: {} }, { $skip: 0 }, { $group: { _id: 1, n: { $sum: 1 } } } ], hint: "_id_", cursor: {}, maxTimeMS: 5000, lsid: { id: UUID("92dbf240-0f7f-460a-991c-0f8f6ff8aec6") }, $db: "local" } planSummary: COUNT_SCAN { _id: 1 } keysExamined:2 docsExamined:0 cursorExhausted:1 numYields:0 nreturned:1 reslen:130 locks:{ ReplicationStateTransition: { acquireCount: { w: 2 } }, Global: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 2 } }, Collection: { acquireCount: { r: 2 } }, Mutex: { acquireCount: { r: 2 } } } storage:{} protocol:op_msg 347ms
+2021-04-16T03:21:32.745+0800 I  NETWORK  [conn1] end connection 127.0.0.1:7214 (12 connections now open)
+2021-04-16T03:21:32.748+0800 I  NETWORK  [conn11] end connection 127.0.0.1:7226 (11 connections now open)
+2021-04-16T03:21:32.748+0800 I  NETWORK  [conn10] end connection 127.0.0.1:7225 (10 connections now open)
+2021-04-16T03:21:32.748+0800 I  NETWORK  [conn9] end connection 127.0.0.1:7224 (9 connections now open)
+2021-04-16T03:21:32.748+0800 I  NETWORK  [conn13] end connection 127.0.0.1:7228 (8 connections now open)
+2021-04-16T03:21:32.748+0800 I  NETWORK  [conn2] end connection 127.0.0.1:7216 (7 connections now open)
+2021-04-16T03:21:32.749+0800 I  NETWORK  [conn4] end connection 127.0.0.1:7218 (6 connections now open)
+2021-04-16T03:21:32.749+0800 I  NETWORK  [conn12] end connection 127.0.0.1:7227 (5 connections now open)
+2021-04-16T03:21:32.749+0800 I  NETWORK  [conn3] end connection 127.0.0.1:7217 (4 connections now open)
+2021-04-16T03:21:32.749+0800 I  NETWORK  [conn5] end connection 127.0.0.1:7219 (3 connections now open)
+2021-04-16T03:21:32.836+0800 I  NETWORK  [conn6] end connection 127.0.0.1:7220 (2 connections now open)
+2021-04-16T03:21:51.449+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7318 #14 (3 connections now open)
+2021-04-16T03:21:51.491+0800 I  NETWORK  [conn14] received client metadata from 127.0.0.1:7318 conn14: { driver: { name: "nodejs", version: "3.6.5" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v14.16.1, LE (legacy)" }
+2021-04-16T03:22:59.016+0800 I  NETWORK  [conn14] end connection 127.0.0.1:7318 (2 connections now open)
+2021-04-16T03:24:11.746+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7323 #15 (3 connections now open)
+2021-04-16T03:24:11.748+0800 I  NETWORK  [conn15] received client metadata from 127.0.0.1:7323 conn15: { driver: { name: "nodejs", version: "3.6.5" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v14.16.1, LE (legacy)" }
+2021-04-16T03:24:17.382+0800 I  NETWORK  [conn15] end connection 127.0.0.1:7323 (2 connections now open)
+2021-04-16T03:24:25.514+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7325 #16 (3 connections now open)
+2021-04-16T03:24:25.518+0800 I  NETWORK  [conn16] received client metadata from 127.0.0.1:7325 conn16: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:24:25.759+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7326 #17 (4 connections now open)
+2021-04-16T03:24:25.761+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7327 #18 (5 connections now open)
+2021-04-16T03:24:25.761+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7328 #19 (6 connections now open)
+2021-04-16T03:24:25.762+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7329 #20 (7 connections now open)
+2021-04-16T03:24:25.779+0800 I  NETWORK  [conn17] received client metadata from 127.0.0.1:7326 conn17: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:24:25.780+0800 I  NETWORK  [conn18] received client metadata from 127.0.0.1:7327 conn18: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:24:25.781+0800 I  NETWORK  [conn19] received client metadata from 127.0.0.1:7328 conn19: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:24:25.782+0800 I  NETWORK  [conn20] received client metadata from 127.0.0.1:7329 conn20: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:24:26.678+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7333 #21 (8 connections now open)
+2021-04-16T03:24:26.688+0800 I  NETWORK  [conn21] received client metadata from 127.0.0.1:7333 conn21: { driver: { name: "nodejs", version: "4.0.0-beta.1" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "Node.js v12.4.0, LE (unified)|Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:24:26.721+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7334 #22 (9 connections now open)
+2021-04-16T03:24:26.723+0800 I  NETWORK  [conn22] received client metadata from 127.0.0.1:7334 conn22: { driver: { name: "nodejs", version: "4.0.0-beta.1" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "Node.js v12.4.0, LE (unified)|Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:24:39.161+0800 I  NETWORK  [conn16] end connection 127.0.0.1:7325 (8 connections now open)
+2021-04-16T03:24:39.161+0800 I  NETWORK  [conn17] end connection 127.0.0.1:7326 (7 connections now open)
+2021-04-16T03:24:39.161+0800 I  NETWORK  [conn18] end connection 127.0.0.1:7327 (6 connections now open)
+2021-04-16T03:24:39.162+0800 I  NETWORK  [conn19] end connection 127.0.0.1:7328 (5 connections now open)
+2021-04-16T03:24:39.182+0800 I  NETWORK  [conn20] end connection 127.0.0.1:7329 (4 connections now open)
+2021-04-16T03:28:16.426+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7345 #23 (5 connections now open)
+2021-04-16T03:28:16.447+0800 I  NETWORK  [conn23] received client metadata from 127.0.0.1:7345 conn23: { driver: { name: "nodejs|Mongoose", version: "3.6.5" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v14.16.1, LE (unified)", version: "3.6.5|5.12.3" }
+2021-04-16T03:28:20.388+0800 I  NETWORK  [conn23] end connection 127.0.0.1:7345 (4 connections now open)
+2021-04-16T03:49:43.232+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7696 #24 (5 connections now open)
+2021-04-16T03:49:43.272+0800 I  NETWORK  [conn24] received client metadata from 127.0.0.1:7696 conn24: { driver: { name: "nodejs|Mongoose", version: "3.6.5" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v14.16.1, LE (unified)", version: "3.6.5|5.12.3" }
+2021-04-16T03:52:08.320+0800 I  NETWORK  [conn24] end connection 127.0.0.1:7696 (4 connections now open)
+2021-04-16T03:52:13.994+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7699 #25 (5 connections now open)
+2021-04-16T03:52:14.009+0800 I  NETWORK  [conn25] received client metadata from 127.0.0.1:7699 conn25: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:52:14.343+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7700 #26 (6 connections now open)
+2021-04-16T03:52:14.344+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7701 #27 (7 connections now open)
+2021-04-16T03:52:14.344+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7702 #28 (8 connections now open)
+2021-04-16T03:52:14.344+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7703 #29 (9 connections now open)
+2021-04-16T03:52:14.362+0800 I  NETWORK  [conn26] received client metadata from 127.0.0.1:7700 conn26: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:52:14.362+0800 I  NETWORK  [conn27] received client metadata from 127.0.0.1:7701 conn27: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:52:14.363+0800 I  NETWORK  [conn28] received client metadata from 127.0.0.1:7702 conn28: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:52:14.363+0800 I  NETWORK  [conn29] received client metadata from 127.0.0.1:7703 conn29: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:52:14.390+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7704 #30 (10 connections now open)
+2021-04-16T03:52:14.395+0800 I  NETWORK  [conn30] received client metadata from 127.0.0.1:7704 conn30: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:52:15.813+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7708 #31 (11 connections now open)
+2021-04-16T03:52:15.821+0800 I  NETWORK  [conn31] received client metadata from 127.0.0.1:7708 conn31: { driver: { name: "nodejs", version: "4.0.0-beta.1" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "Node.js v12.4.0, LE (unified)|Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:52:15.908+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7709 #32 (12 connections now open)
+2021-04-16T03:52:15.910+0800 I  NETWORK  [conn32] received client metadata from 127.0.0.1:7709 conn32: { driver: { name: "nodejs", version: "4.0.0-beta.1" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "Node.js v12.4.0, LE (unified)|Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T03:52:25.318+0800 I  COMMAND  [conn27] command admin.$cmd.aggregate appName: "MongoDB Compass" command: currentOp { currentOp: 1, $all: false, lsid: { id: UUID("c978ad92-a9bb-48b1-b38f-f9dce5ecfb6a") }, $db: "admin" } keysExamined:0 docsExamined:0 cursorExhausted:1 numYields:0 nreturned:1 reslen:1230 locks:{} protocol:op_msg 137ms
+2021-04-16T03:52:50.982+0800 I  NETWORK  [conn25] end connection 127.0.0.1:7699 (11 connections now open)
+2021-04-16T03:52:50.982+0800 I  NETWORK  [conn28] end connection 127.0.0.1:7702 (10 connections now open)
+2021-04-16T03:52:50.983+0800 I  NETWORK  [conn30] end connection 127.0.0.1:7704 (9 connections now open)
+2021-04-16T03:52:50.983+0800 I  NETWORK  [conn27] end connection 127.0.0.1:7701 (8 connections now open)
+2021-04-16T03:52:50.983+0800 I  NETWORK  [conn26] end connection 127.0.0.1:7700 (7 connections now open)
+2021-04-16T03:52:51.033+0800 I  NETWORK  [conn29] end connection 127.0.0.1:7703 (6 connections now open)
+2021-04-16T03:54:38.546+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7736 #33 (7 connections now open)
+2021-04-16T03:54:38.558+0800 I  NETWORK  [conn33] received client metadata from 127.0.0.1:7736 conn33: { driver: { name: "nodejs|Mongoose", version: "3.6.5" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v14.16.1, LE (unified)", version: "3.6.5|5.12.3" }
+2021-04-16T03:54:46.417+0800 I  NETWORK  [conn33] end connection 127.0.0.1:7736 (6 connections now open)
+2021-04-16T03:54:55.698+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7737 #34 (7 connections now open)
+2021-04-16T03:54:55.701+0800 I  NETWORK  [conn34] received client metadata from 127.0.0.1:7737 conn34: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.2.13" }, os: { type: "Windows", name: "Microsoft Windows 8.1", architecture: "x86_64", version: "6.3 (build 9600)" } }
+2021-04-16T03:55:55.694+0800 I  NETWORK  [conn34] end connection 127.0.0.1:7737 (6 connections now open)
+2021-04-16T03:56:06.923+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7740 #35 (7 connections now open)
+2021-04-16T03:56:06.926+0800 I  NETWORK  [conn35] received client metadata from 127.0.0.1:7740 conn35: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.2.13" }, os: { type: "Windows", name: "Microsoft Windows 8.1", architecture: "x86_64", version: "6.3 (build 9600)" } }
+2021-04-16T04:13:41.018+0800 I  NETWORK  [conn35] end connection 127.0.0.1:7740 (6 connections now open)
+2021-04-16T04:18:19.183+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7997 #36 (7 connections now open)
+2021-04-16T04:18:19.186+0800 I  NETWORK  [conn36] received client metadata from 127.0.0.1:7997 conn36: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:18:19.389+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7998 #37 (8 connections now open)
+2021-04-16T04:18:19.389+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:7999 #38 (9 connections now open)
+2021-04-16T04:18:19.391+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8000 #39 (10 connections now open)
+2021-04-16T04:18:19.392+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8001 #40 (11 connections now open)
+2021-04-16T04:18:19.396+0800 I  NETWORK  [conn37] received client metadata from 127.0.0.1:7998 conn37: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:18:19.397+0800 I  NETWORK  [conn38] received client metadata from 127.0.0.1:7999 conn38: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:18:19.397+0800 I  NETWORK  [conn39] received client metadata from 127.0.0.1:8000 conn39: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:18:19.398+0800 I  NETWORK  [conn40] received client metadata from 127.0.0.1:8001 conn40: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:18:19.434+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8002 #41 (12 connections now open)
+2021-04-16T04:18:19.438+0800 I  NETWORK  [conn41] received client metadata from 127.0.0.1:8002 conn41: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:18:20.793+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8005 #42 (13 connections now open)
+2021-04-16T04:18:20.800+0800 I  NETWORK  [conn42] received client metadata from 127.0.0.1:8005 conn42: { driver: { name: "nodejs", version: "4.0.0-beta.1" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "Node.js v12.4.0, LE (unified)|Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:18:20.868+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8006 #43 (14 connections now open)
+2021-04-16T04:18:20.869+0800 I  NETWORK  [conn43] received client metadata from 127.0.0.1:8006 conn43: { driver: { name: "nodejs", version: "4.0.0-beta.1" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "Node.js v12.4.0, LE (unified)|Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:23:51.749+0800 I  NETWORK  [conn36] end connection 127.0.0.1:7997 (13 connections now open)
+2021-04-16T04:23:51.750+0800 I  NETWORK  [conn40] end connection 127.0.0.1:8001 (12 connections now open)
+2021-04-16T04:23:51.750+0800 I  NETWORK  [conn37] end connection 127.0.0.1:7998 (11 connections now open)
+2021-04-16T04:23:51.750+0800 I  NETWORK  [conn39] end connection 127.0.0.1:8000 (10 connections now open)
+2021-04-16T04:23:51.750+0800 I  NETWORK  [conn38] end connection 127.0.0.1:7999 (9 connections now open)
+2021-04-16T04:23:51.820+0800 I  NETWORK  [conn41] end connection 127.0.0.1:8002 (8 connections now open)
+2021-04-16T04:24:23.550+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8034 #44 (9 connections now open)
+2021-04-16T04:24:23.560+0800 I  NETWORK  [conn44] received client metadata from 127.0.0.1:8034 conn44: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:24:23.861+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8035 #45 (10 connections now open)
+2021-04-16T04:24:23.863+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8036 #46 (11 connections now open)
+2021-04-16T04:24:23.863+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8037 #47 (12 connections now open)
+2021-04-16T04:24:23.864+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8038 #48 (13 connections now open)
+2021-04-16T04:24:23.874+0800 I  NETWORK  [conn45] received client metadata from 127.0.0.1:8035 conn45: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:24:23.875+0800 I  NETWORK  [conn46] received client metadata from 127.0.0.1:8036 conn46: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:24:23.876+0800 I  NETWORK  [conn47] received client metadata from 127.0.0.1:8037 conn47: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:24:23.877+0800 I  NETWORK  [conn48] received client metadata from 127.0.0.1:8038 conn48: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:24:24.709+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8041 #49 (14 connections now open)
+2021-04-16T04:24:24.715+0800 I  NETWORK  [conn49] received client metadata from 127.0.0.1:8041 conn49: { driver: { name: "nodejs", version: "4.0.0-beta.1" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "Node.js v12.4.0, LE (unified)|Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:24:24.739+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8042 #50 (15 connections now open)
+2021-04-16T04:24:24.740+0800 I  NETWORK  [conn50] received client metadata from 127.0.0.1:8042 conn50: { driver: { name: "nodejs", version: "4.0.0-beta.1" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "Node.js v12.4.0, LE (unified)|Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:25:46.695+0800 I  NETWORK  [conn45] end connection 127.0.0.1:8035 (14 connections now open)
+2021-04-16T04:25:46.697+0800 I  NETWORK  [conn44] end connection 127.0.0.1:8034 (13 connections now open)
+2021-04-16T04:25:46.697+0800 I  NETWORK  [conn46] end connection 127.0.0.1:8036 (12 connections now open)
+2021-04-16T04:25:46.697+0800 I  NETWORK  [conn47] end connection 127.0.0.1:8037 (11 connections now open)
+2021-04-16T04:25:46.697+0800 I  NETWORK  [conn48] end connection 127.0.0.1:8038 (10 connections now open)
+2021-04-16T04:25:46.739+0800 I  NETWORK  [conn21] end connection 127.0.0.1:7333 (9 connections now open)
+2021-04-16T04:25:46.739+0800 I  NETWORK  [conn7] end connection 127.0.0.1:7222 (8 connections now open)
+2021-04-16T04:25:46.741+0800 I  NETWORK  [conn42] end connection 127.0.0.1:8005 (7 connections now open)
+2021-04-16T04:25:46.746+0800 I  NETWORK  [conn43] end connection 127.0.0.1:8006 (6 connections now open)
+2021-04-16T04:25:46.746+0800 I  NETWORK  [conn8] end connection 127.0.0.1:7223 (5 connections now open)
+2021-04-16T04:25:46.746+0800 I  NETWORK  [conn22] end connection 127.0.0.1:7334 (4 connections now open)
+2021-04-16T04:25:46.762+0800 I  NETWORK  [conn49] end connection 127.0.0.1:8041 (3 connections now open)
+2021-04-16T04:25:46.762+0800 I  NETWORK  [conn50] end connection 127.0.0.1:8042 (2 connections now open)
+2021-04-16T04:25:46.766+0800 I  NETWORK  [conn31] end connection 127.0.0.1:7708 (1 connection now open)
+2021-04-16T04:25:46.766+0800 I  NETWORK  [conn32] end connection 127.0.0.1:7709 (0 connections now open)
+2021-04-16T04:33:30.318+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8085 #51 (1 connection now open)
+2021-04-16T04:33:30.331+0800 I  NETWORK  [conn51] received client metadata from 127.0.0.1:8085 conn51: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:33:30.750+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8087 #52 (2 connections now open)
+2021-04-16T04:33:30.750+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8088 #53 (3 connections now open)
+2021-04-16T04:33:30.751+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8089 #54 (4 connections now open)
+2021-04-16T04:33:30.751+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8090 #55 (5 connections now open)
+2021-04-16T04:33:30.770+0800 I  NETWORK  [conn52] received client metadata from 127.0.0.1:8087 conn52: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:33:30.771+0800 I  NETWORK  [conn53] received client metadata from 127.0.0.1:8088 conn53: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:33:30.772+0800 I  NETWORK  [conn54] received client metadata from 127.0.0.1:8089 conn54: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:33:30.772+0800 I  NETWORK  [conn55] received client metadata from 127.0.0.1:8090 conn55: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:33:30.824+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8091 #56 (6 connections now open)
+2021-04-16T04:33:30.838+0800 I  NETWORK  [conn56] received client metadata from 127.0.0.1:8091 conn56: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:33:31.634+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8093 #57 (7 connections now open)
+2021-04-16T04:33:31.642+0800 I  NETWORK  [conn57] received client metadata from 127.0.0.1:8093 conn57: { driver: { name: "nodejs", version: "4.0.0-beta.1" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "Node.js v12.4.0, LE (unified)|Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:33:31.696+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8094 #58 (8 connections now open)
+2021-04-16T04:33:31.698+0800 I  NETWORK  [conn58] received client metadata from 127.0.0.1:8094 conn58: { driver: { name: "nodejs", version: "4.0.0-beta.1" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "Node.js v12.4.0, LE (unified)|Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-16T04:38:51.873+0800 I  NETWORK  [listener] connection accepted from 127.0.0.1:8126 #59 (9 connections now open)
+2021-04-16T04:38:51.922+0800 I  NETWORK  [conn59] received client metadata from 127.0.0.1:8126 conn59: { driver: { name: "nodejs|Mongoose", version: "3.6.5" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "6.3.9600" }, platform: "'Node.js v14.16.1, LE (unified)", version: "3.6.5|5.12.3" }
+2021-04-16T04:40:24.471+0800 I  NETWORK  [conn51] end connection 127.0.0.1:8085 (8 connections now open)
+2021-04-16T04:40:24.472+0800 I  NETWORK  [conn53] end connection 127.0.0.1:8088 (7 connections now open)
+2021-04-16T04:40:24.473+0800 I  NETWORK  [conn56] end connection 127.0.0.1:8091 (6 connections now open)
+2021-04-16T04:40:24.473+0800 I  NETWORK  [conn52] end connection 127.0.0.1:8087 (5 connections now open)
+2021-04-16T04:40:24.473+0800 I  NETWORK  [conn54] end connection 127.0.0.1:8089 (4 connections now open)
+2021-04-16T04:40:24.473+0800 I  NETWORK  [conn55] end connection 127.0.0.1:8090 (3 connections now open)
+2021-04-16T04:40:24.475+0800 I  NETWORK  [conn58] end connection 127.0.0.1:8094 (2 connections now open)
+2021-04-16T04:40:24.475+0800 I  NETWORK  [conn57] end connection 127.0.0.1:8093 (1 connection now open)
+2021-04-16T04:40:31.129+0800 I  NETWORK  [conn59] end connection 127.0.0.1:8126 (0 connections now open)
+2021-04-16T04:41:38.136+0800 I  CONTROL  [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2021-04-16T04:41:38.148+0800 I  REPL     [serviceShutdown] Stepping down the ReplicationCoordinator for shutdown, waitTime: 10000ms
+2021-04-16T04:41:38.185+0800 I  SHARDING [serviceShutdown] Shutting down the WaitForMajorityService
+2021-04-16T04:41:38.208+0800 I  CONTROL  [serviceShutdown] Shutting down the LogicalSessionCache
+2021-04-16T04:41:38.208+0800 I  NETWORK  [serviceShutdown] shutdown: going to close listening sockets...
+2021-04-16T04:41:38.209+0800 I  NETWORK  [serviceShutdown] Shutting down the global connection pool
+2021-04-16T04:41:38.209+0800 I  STORAGE  [serviceShutdown] Shutting down the FlowControlTicketholder
+2021-04-16T04:41:38.209+0800 I  -        [serviceShutdown] Stopping further Flow Control ticket acquisitions.
+2021-04-16T04:41:38.209+0800 I  STORAGE  [serviceShutdown] Shutting down the PeriodicThreadToAbortExpiredTransactions
+2021-04-16T04:41:38.209+0800 I  STORAGE  [serviceShutdown] Shutting down the PeriodicThreadToDecreaseSnapshotHistoryIfNotNeeded
+2021-04-16T04:41:38.209+0800 I  REPL     [serviceShutdown] Shutting down the ReplicationCoordinator
+2021-04-16T04:41:38.209+0800 I  SHARDING [serviceShutdown] Shutting down the ShardingInitializationMongoD
+2021-04-16T04:41:38.214+0800 I  REPL     [serviceShutdown] Enqueuing the ReplicationStateTransitionLock for shutdown
+2021-04-16T04:41:38.214+0800 I  -        [serviceShutdown] Killing all operations for shutdown
+2021-04-16T04:41:38.214+0800 I  COMMAND  [serviceShutdown] Shutting down all open transactions
+2021-04-16T04:41:38.214+0800 I  REPL     [serviceShutdown] Acquiring the ReplicationStateTransitionLock for shutdown
+2021-04-16T04:41:38.214+0800 I  INDEX    [serviceShutdown] Shutting down the IndexBuildsCoordinator
+2021-04-16T04:41:38.227+0800 I  NETWORK  [serviceShutdown] Shutting down the ReplicaSetMonitor
+2021-04-16T04:41:38.232+0800 I  CONTROL  [serviceShutdown] Shutting down free monitoring
+2021-04-16T04:41:38.232+0800 I  CONTROL  [serviceShutdown] Shutting down free monitoring
+2021-04-16T04:41:38.232+0800 I  FTDC     [serviceShutdown] Shutting down full-time data capture
+2021-04-16T04:41:38.232+0800 I  FTDC     [serviceShutdown] Shutting down full-time diagnostic data capture
+2021-04-16T04:41:38.247+0800 I  STORAGE  [serviceShutdown] Shutting down the HealthLog
+2021-04-16T04:41:38.247+0800 I  STORAGE  [serviceShutdown] Shutting down the storage engine
+2021-04-16T04:41:38.254+0800 I  STORAGE  [serviceShutdown] Deregistering all the collections
+2021-04-16T04:41:38.278+0800 I  STORAGE  [serviceShutdown] Timestamp monitor shutting down
+2021-04-16T04:41:38.278+0800 I  STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
+2021-04-16T04:41:38.278+0800 I  STORAGE  [serviceShutdown] Shutting down session sweeper thread
+2021-04-16T04:41:38.286+0800 I  STORAGE  [serviceShutdown] Finished shutting down session sweeper thread
+2021-04-16T04:41:38.286+0800 I  STORAGE  [serviceShutdown] Shutting down journal flusher thread
+2021-04-16T04:41:38.337+0800 I  STORAGE  [serviceShutdown] Finished shutting down journal flusher thread
+2021-04-16T04:41:38.337+0800 I  STORAGE  [serviceShutdown] Shutting down checkpoint thread
+2021-04-16T04:41:38.337+0800 I  STORAGE  [serviceShutdown] Finished shutting down checkpoint thread
+2021-04-16T04:41:38.954+0800 I  STORAGE  [serviceShutdown] shutdown: removing fs lock...
+2021-04-16T04:41:38.956+0800 I  -        [serviceShutdown] Dropping the scope cache for shutdown
+2021-04-16T04:41:38.975+0800 I  CONTROL  [serviceShutdown] now exiting
